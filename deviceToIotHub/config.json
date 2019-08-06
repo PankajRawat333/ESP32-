@@ -1,0 +1,8 @@
+{
+"ssid":"ASUS_X00TD",
+"password":"sachin123",
+"host":"pankajrawatIoTHub.azure-devices.net",
+"key":"B55OBFvmRgYE/GLYtbFrVgmflUh6eW9ZBPg0ZDUWpSM=",
+"deviceId":"ESP32S",
+"sampleRate":1
+}

@@ -5,7 +5,4 @@ esptool.py --chip esp32 erase_flash
 esptool.py --chip esp32 --port COM16 write_flash -z 0x1000 esp32-20190730-v1.11-180-g8f55a8fab.bin
 
 
-rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
-flash read err, 1000
-ets_main.c 371
-ets Jun  8 2016 00:22:57
+putty : Serial - COM16 Speed : 115200
