@@ -30,8 +30,8 @@ mqtt_client_id = bytes('client_'+str(random_num), 'utf-8')
 #   Caveat: a secure connection uses about 9k bytes of the heap
 #         (about 1/4 of the micropython heap on the ESP8266 platform)
 ADAFRUIT_IO_URL = b'io.adafruit.com'
-ADAFRUIT_USERNAME = b'pankajrawat'
-ADAFRUIT_IO_KEY = b'56e8adb0e2e44e99b9f0d89a6bb3be0a'
+ADAFRUIT_USERNAME = b'adafruit-username'
+ADAFRUIT_IO_KEY = b'adafruit-keys'
 ADAFRUIT_IO_FEEDNAME = b'ESP32 LED'
 
 client = MQTTClient(client_id=mqtt_client_id, 
